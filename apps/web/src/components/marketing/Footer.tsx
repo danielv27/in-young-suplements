@@ -11,6 +11,10 @@ const footerLinks = {
     { href: "/science", label: "Our Science" },
     { href: "/assessment", label: "Take Assessment" },
   ],
+  Account: [
+    { href: "/signup", label: "Sign Up" },
+    { href: "/login", label: "Login" },
+  ],
   Legal: [
     { href: "/privacy", label: "Privacy Policy" },
     { href: "/terms", label: "Terms of Service" },
@@ -21,7 +25,7 @@ export function Footer() {
   return (
     <footer className="border-t border-neutral-100 bg-neutral-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-5">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <span className="font-serif text-xl font-semibold text-neutral-900">

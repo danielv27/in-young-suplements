@@ -49,6 +49,12 @@ export function Navbar() {
               Login
             </Link>
             <Link
+              href="/signup"
+              className="rounded-full border border-brand-600 px-5 py-2 text-sm font-semibold text-brand-600 hover:bg-brand-50 transition-colors"
+            >
+              Sign Up
+            </Link>
+            <Link
               href="/assessment"
               className="rounded-full bg-brand-600 px-5 py-2 text-sm font-semibold text-white hover:bg-brand-700 transition-colors"
             >
@@ -87,6 +93,13 @@ export function Navbar() {
               onClick={() => setOpen(false)}
             >
               Login
+            </Link>
+            <Link
+              href="/signup"
+              className="text-sm font-medium text-brand-600"
+              onClick={() => setOpen(false)}
+            >
+              Sign Up
             </Link>
             <Link
               href="/assessment"
